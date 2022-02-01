@@ -12,6 +12,9 @@ function App() {
           Testando
           Teste
         </p>
+        <p>
+          Nova Funcionalidade
+        </p>
       </header>
     </div>
   );
