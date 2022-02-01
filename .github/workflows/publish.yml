@@ -32,6 +32,7 @@ jobs:
 
   publish:
     runs-on: ubuntu-latest
+    environment: secrets
     needs: [quality]
     steps:
     - uses: actions/checkout@v2
