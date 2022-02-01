@@ -1,7 +1,7 @@
 {
   "name": "ubx-poc-lib-automation",
   "version": "2.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
@@ -43,6 +43,10 @@
     "cross-env": "^7.0.3",
     "cz-conventional-changelog": "^3.3.0",
     "semantic-release": "^19.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vtpa/ubx-poc-lib-automation.git"
   },
   "config": {
     "commitizen": {
