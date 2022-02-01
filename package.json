@@ -17,7 +17,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "commit": "cz",
-    "release": "semantic-release --no-ci"
+    "release": "semantic-release"
   },
   "eslintConfig": {
     "extends": [
