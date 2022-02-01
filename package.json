@@ -1,6 +1,6 @@
 {
   "name": "ubx-poc-lib-automation",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
@@ -16,7 +16,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "commit": "cz"
+    "commit": "cz",
+    "release": "cross-env GITHUB_TOKEN=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 semantic-release --no-ci"
   },
   "eslintConfig": {
     "extends": [
@@ -37,7 +38,11 @@
     ]
   },
   "devDependencies": {
-    "cz-conventional-changelog": "^3.3.0"
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "cross-env": "^7.0.3",
+    "cz-conventional-changelog": "^3.3.0",
+    "semantic-release": "^19.0.2"
   },
   "config": {
     "commitizen": {
