@@ -18,6 +18,9 @@ function App() {
         <p>
           Nova Funcionalidade 2
         </p>
+        <p>
+          Nova Funcionalidade 3
+        </p>
       </header>
     </div>
   );
