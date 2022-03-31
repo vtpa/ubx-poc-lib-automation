@@ -3,5 +3,5 @@ import App from './App';
 
 test('will pass, I promisse', () => {
   render(<App />);
-  expect(true).toBe(true);
+  expect(true).toBe(false);
 });
